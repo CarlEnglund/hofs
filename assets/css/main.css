@@ -64,7 +64,7 @@ html, body, #carousel, #carousel ul, #carousel li
     -moz-border-radius: 0px;
     border-radius: 0px;
     margin-left: 40px;
-    margin-top: -85px;
+    margin-top: -40px;
 
 }
 
@@ -227,7 +227,6 @@ html, body, #carousel, #carousel ul, #carousel li
     padding: 0; 
     min-width: 100%;
     height: 50% !important;
-    margin-bottom: 10px;
 }
 
 .profile {
