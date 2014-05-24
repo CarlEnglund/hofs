@@ -126,12 +126,10 @@ html, body, #carousel, #carousel ul, #carousel li
 
 
 #carousel li.pane1 { background: #F2E2DF; }
-/**
-=======
->>>>>>> dc61c9bd40abc9decb074f34d593991655a7c4ac
+
 .profile {
-   width: 100px;
-   height: 100px;
+   width: 50px;
+   height: 50px;
    border-radius: 50%;
    -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -139,7 +137,7 @@ html, body, #carousel, #carousel ul, #carousel li
     -o-border-radius: 50%;
 }
 
-<<<<<<< HEAD
+
 .pictures
 {
     color: #666;
@@ -149,7 +147,7 @@ html, body, #carousel, #carousel ul, #carousel li
     height: 20% !important;
     background-color: green !important;  
 }
-*/
+
 .friends
 {
     color: #666;
@@ -180,6 +178,15 @@ input[type='checkbox']
     height:25px;
 }
 
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
 #carousel li.pane1 { background: #F2E2DF; }
 #carousel li.pane2 { background: #4986e7; }
 #carousel li.pane3 { background: #d06b64; }
