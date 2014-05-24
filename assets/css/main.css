@@ -55,10 +55,35 @@ html, body, #carousel, #carousel ul, #carousel li
 #carousel div
 {
 	color: #666;
-	min-width: 100%;
 	text-align: center;
 	height: 15%;
-	background-color: #fff;
+}
+
+.bubble 
+{
+    position: relative;
+    width: 250px;
+    height: 90px;
+    padding: 0px;
+    float: left;
+    background: #FFFFFF;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.bubble:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 12px 13px 12px 0;
+    border-color: transparent #FFFFFF;
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: -13px;
+    top: 51px;
 }
 
 .newevent
@@ -120,6 +145,64 @@ html, body, #carousel, #carousel ul, #carousel li
     text-shadow: -1px -1px 0 rgba(0,0,0,.2);
 }
 
+/*Första wrappern*/
+.wrapper1 
+{
+    margin: 0px 0px 0px 0px; 
+    background-color: #F2E2DF !important;  
+}
+
+.activity-header{
+    float: left; 
+    width: 50%;
+}
+
+.activity-header h1{
+    color: #000000; 
+    padding: 0px 0px 0px 20px;
+    font-size: 50px;
+    text-align: left;
+    padding-top: 10px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing:2px;
+}
+
+.activity-icon {
+   float: right;
+    width: 50%;
+}
+
+.activity-icon img {
+   width: 100px;
+   height: 100px;
+   padding-top: 20px;
+}
+
+.clear
+{
+    clear:both;    
+}
+
+/*Andra wrappern*/
+.wrapper2 
+{
+    margin: 0px 0px 0px 0px; 
+    background-color: #F2E2DF !important;
+}
+
+.description-img {
+    float: left; 
+    width: 50%;
+}
+
+.description-img img {
+}
+
+.description-text {
+    float: right;
+    width: 50%;
+}
+
 .profile {
    width: 100px;
    height: 100px;
@@ -131,5 +214,5 @@ html, body, #carousel, #carousel ul, #carousel li
 }
 
 #carousel li.pane1 { background: #F2E2DF; }
-#carousel li.pane2 { background: #4986e7; }
+#carousel li.pane2 { background: #54BE68; }
 #carousel li.pane3 { background: #d06b64; }
