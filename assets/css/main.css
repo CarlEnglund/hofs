@@ -58,7 +58,7 @@ html, body, #carousel, #carousel ul, #carousel li
 	min-width: 100%;
 	text-align: center;
 	height: 15%;
-	background-color: #fff;
+	
 }
 
 .newevent
@@ -146,34 +146,38 @@ html, body, #carousel, #carousel ul, #carousel li
     height: 20% !important;
     background-color: green !important;  
 }
-
+*/
 .friends
 {
     color: #666;
     min-width: 100%;    
-    height: 50% !important;
-    background-color: lightblue !important;  
+    font-size: 125%; 
 
 }
 
+
 .profilefriends
 {
-   width: 100px;
-   height: 100px;
+   width: 75px;
+   height: 75px;
    border-radius: 50%;
    -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%; 
+    position: relative;
+    right: 35px;
 }
 
-input
+input[type='checkbox']
 {
-    
+    position: relative;
+    left: 35px;
+    width:25px;
+    height:25px;
 }
 
 #carousel li.pane1 { background: #42d692; }
-*/
 
 
 #carousel li.pane2 { background: #4986e7; }
