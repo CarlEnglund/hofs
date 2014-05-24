@@ -120,12 +120,6 @@ html, body, #carousel, #carousel ul, #carousel li
     text-shadow: -1px -1px 0 rgba(0,0,0,.2);
 }
 
-<<<<<<< HEAD
-
-
-
-#carousel li.pane1 { background: #F2E2DF; }
-=======
 .profile {
    width: 100px;
    height: 100px;
@@ -136,7 +130,6 @@ html, body, #carousel, #carousel ul, #carousel li
     -o-border-radius: 50%;
 }
 
-#carousel li.pane1 { background: #42d692; }
->>>>>>> 9e27617ef2b8548ed7a5eabdb1398a9bd1efcb96
+#carousel li.pane1 { background: #F2E2DF; }
 #carousel li.pane2 { background: #4986e7; }
 #carousel li.pane3 { background: #d06b64; }
