@@ -64,16 +64,16 @@ html, body, #carousel, #carousel ul, #carousel li
 .newevent
 {
     background-color: #FFFFFF !important;  
-	font-size: 300% !important; 
+	font-size: 200% !important; 
     height: 11% !important;
 	vertical-align: middle !important;
 	line-height: 150%; 
-    box-shadow: 0px 8px 5px #888888;
-    margin: 0 0 30px 0;
+    box-shadow: 0px 3px 3px #888888;
+    margin: 0 0 15px 0;
 }
 .event
 {
-    margin: 30px 0px 0px 0px; 
+    margin: 15px 0px 0px 0px; 
     height: 20% !important;
     background-color: #D9E852 !important;   
 }
@@ -82,7 +82,7 @@ html, body, #carousel, #carousel ul, #carousel li
 {
     color: #fff; 
     padding: 10px 0px 0px 20px;
-    font-size: 30px;
+    font-size: 15px;
     text-align: left;
     width: 100%;
     text-shadow: -1px -1px 0 rgba(0,0,0,.2);
@@ -90,7 +90,7 @@ html, body, #carousel, #carousel ul, #carousel li
 
 .eventaccept
 {
-    margin: 30px 0px 0px 0px; 
+    margin: 15px 0px 0px 0px; 
     height: 20% !important; 
     background-color: #54BE68 !important;   
 }
@@ -99,7 +99,7 @@ html, body, #carousel, #carousel ul, #carousel li
 {
     color: #fff; 
     padding: 10px 0px 0px 20px;
-    font-size: 30px;
+    font-size: 15px;
     text-align: left;
     width: 100%;
     text-shadow: -1px -1px 0 rgba(0,0,0,.2);
@@ -108,7 +108,7 @@ html, body, #carousel, #carousel ul, #carousel li
 
 .eventdecline
 {
-	margin: 30px 0px 0px 0px; 
+	margin: 15px 0px 0px 0px; 
     height: 20% !important;
 	background-color: #F26444 !important; 	
 }
@@ -117,7 +117,7 @@ html, body, #carousel, #carousel ul, #carousel li
 {
     color: #fff; 
     padding: 10px 0px 0px 20px;
-    font-size: 30px;
+    font-size: 15px;
     text-align: left;
     width: 100%;
     text-shadow: -1px -1px 0 rgba(0,0,0,.2);
