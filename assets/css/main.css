@@ -90,17 +90,22 @@ html, body, #carousel, #carousel ul, #carousel li
     background-color: #FFFFFF !important;  
 	font-size: 200% !important; 
     height: 11% !important;
-	vertical-align: middle !important;
 	line-height: 20    0%; 
     box-shadow: 0px 3px 3px #888888;
-    margin: 0 0 15px 0;
+    padding: 0 50% 0 50%;
+}
+
+.newevent p
+{
+    vertical-align: middle !important;
 }
 .event
 {
     margin: 15px 0px 0px 0px; 
     height: 20% !important;
     width: 100%;
-    background-color: #D9E852;   
+    background-color: #D9E852;  
+    padding: 5px 0 0 5px; 
 }
 
 .event h1
@@ -227,6 +232,7 @@ html, body, #carousel, #carousel ul, #carousel li
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    padding: 5px;
 }
 
 .pictures
@@ -275,6 +281,7 @@ input[type='checkbox']
 {
     width: 30px;
     height: 30px;
+    padding: 0 2px 0 0;
 }
 
 .notattending
@@ -282,6 +289,7 @@ input[type='checkbox']
     width: 30px;
     height: 30px;
     opacity: 0.4;
+    padding: 0 2px 0 0;
 }
 
 .event h1
