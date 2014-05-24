@@ -353,11 +353,126 @@ input[type='checkbox']
     display: inline-block;
 }
 
+
 .tryckner
 {
     margin-top: 100px;
     margin-left: 40px;
 }
+
+.noevents
+{
+    padding: 20px 0 0 30px;
+}
+
+.snurra 
+{
+    position: relative;
+    width: 12em;
+    height: 2em;
+    -webkit-transform: translateZ(-10px) rotateX(0deg);
+    -moz-transform: translateZ(-10px) rotateX(0deg);
+    -ms-transform: translateZ(-10px) rotateX(0deg);
+    -o-transform: translateZ(-10px) rotateX(0deg);
+    transform: translateZ(-10px) rotateX(0deg);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: -webkit-transform 250ms;
+    -moz-transition: -moz-transform 250ms;
+    -ms-transition: -ms-transform 250ms;
+    -o-transition: -o-transform 250ms;
+    transition: transform 250ms;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 3000;
+    -moz-perspective: 3000;
+    -ms-perspective: 3000;
+    perspective: 3000;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.snurra h3 
+{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      font-size: 16px;
+}
+
+.snurra h3:nth-child(1) 
+{
+        -webkit-transform: rotateX(0deg) translateZ(10px);
+        -moz-transform: rotateX(0deg) translateZ(10px);
+        -ms-transform: rotateX(0deg) translateZ(10px);
+        -o-transform: rotateX(0deg) translateZ(10px);
+        transform: rotateX(0deg) translateZ(10px);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden; 
+}
+
+.snurra h3:nth-child(2) 
+{
+        -webkit-transform: rotateX(90deg) translateZ(10px);
+        -moz-transform: rotateX(90deg) translateZ(10px);
+        -ms-transform: rotateX(90deg) translateZ(10px);
+        -o-transform: rotateX(90deg) translateZ(10px);
+        transform: rotateX(90deg) translateZ(10px);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden; 
+}
+
+.snurra h3:nth-child(3) 
+{
+        -webkit-transform: rotateX(180deg) translateZ(10px);
+        -moz-transform: rotateX(180deg) translateZ(10px);
+        -ms-transform: rotateX(180deg) translateZ(10px);
+        -o-transform: rotateX(180deg) translateZ(10px);
+        transform: rotateX(180deg) translateZ(10px);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden; 
+}
+
+.snurra h3:nth-child(4) 
+{
+        -webkit-transform: rotateX(270deg) translateZ(10px);
+        -moz-transform: rotateX(270deg) translateZ(10px);
+        -ms-transform: rotateX(270deg) translateZ(10px);
+        -o-transform: rotateX(270deg) translateZ(10px);
+        transform: rotateX(270deg) translateZ(10px);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden; 
+}
+
+.snurra > h3:nth-child(3), .snurra 
+{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px; 
+}
+
+.snurra > h3:last-child
+{
+    padding: 2em 0 0 0;
+}
+
+
 #carousel li.pane1 { background: #F2E2DF; }
 #carousel li.pane2 { background: #F2E2DF; }
 #carousel li.pane3 { background: #F2E2DF; }
+#carousel li.pane4 { background: #F2E2DF; }
