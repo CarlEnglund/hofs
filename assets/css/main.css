@@ -56,7 +56,33 @@ html, body, #carousel, #carousel ul, #carousel li
 {
 	color: #666;
 	height: 15%;
-	
+}
+
+.bubble 
+{
+    position: relative;
+    width: 250px;
+    height: 90px;
+    padding: 0px;
+    float: left;
+    background: #FFFFFF;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.bubble:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 12px 13px 12px 0;
+    border-color: transparent #FFFFFF;
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: -13px;
+    top: 51px;
 }
 
 .newevent
@@ -74,7 +100,7 @@ html, body, #carousel, #carousel ul, #carousel li
     margin: 15px 0px 0px 0px; 
     height: 20% !important;
     width: 100%;
-    background-color: #D9E852 !important;   
+    background-color: #D9E852;   
 }
 
 .event h1
@@ -128,9 +154,68 @@ html, body, #carousel, #carousel ul, #carousel li
     text-shadow: -1px -1px 0 rgba(0,0,0,.2);
 }
 
+/*Första wrappern*/
+.wrapper1 
+{
+    margin: 0px 0px 0px 0px; 
+    background-color: #F2E2DF !important;  
+}
 
+.activity-header
+{
+    float: left; 
+    width: 50%;
+}
 
-#carousel li.pane1 { background: #F2E2DF; }
+.activity-header h1
+{
+    color: #000000; 
+    padding: 0px 0px 0px 20px;
+    font-size: 50px;
+    text-align: left;
+    padding-top: 10px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing:2px;
+}
+
+.activity-icon 
+{
+   float: right;
+    width: 50%;
+}
+
+.activity-icon img 
+{
+   width: 100px;
+   height: 100px;
+   padding-top: 20px;
+}
+
+.clear
+{
+    clear:both;    
+}
+
+/*Andra wrappern*/
+.wrapper2 
+{
+    margin: 0px 0px 0px 0px; 
+    background-color: #F2E2DF !important;
+}
+
+.description-img {
+    float: left; 
+    width: 50%;
+}
+
+.description-img img {
+}
+
+.description-text {
+    float: right;
+    width: 50%;
+}
+
 
 .profile {
    width: 50px;
@@ -141,7 +226,6 @@ html, body, #carousel, #carousel ul, #carousel li
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-
 
 .pictures
 {
@@ -185,8 +269,6 @@ input[type='checkbox']
     height:25px;
 }
 
-
-
 .attending
 {
     width: 30px;
@@ -227,19 +309,34 @@ input[type='checkbox']
 .lefty
 {
     float: left;
-    background-color: #d06b64 !important;  
-    width: 70%;    
+    width: 95%;  
+    height: 20%;  
 }
+
 .righty
 {
     float: right;
-    background-color: #54BE68 !important;  
-    width: 30%;    
+    width: 5%;
+    height: 20%;    
 }
+
 .clear
 {
     clear:both;    
 }
+
+.left
+{
+    float: left;
+
+}
+
+.right
+{
+    float: right;
+    display: inline-block;
+}
+
 
 #carousel li.pane1 { background: #F2E2DF; }
 #carousel li.pane2 { background: #54BE68; }
