@@ -4,11 +4,11 @@ function TodoCtrl($scope) {
     text:'Mattias Palmgren', 
      done:false},
     {img: "assets/img/profile/johan.jpg",
-     text:'Mattias Palmgren', 
+     text:'Johan Henriksson', 
      done:false},
      {
       img: "assets/img/profile/carl.jpg",
-      text:'Mattias Palmgren', 
+      text:'Johan Henriksson', 
      done:false},
     {
      img: "assets/img/profile/carl.jpg",
