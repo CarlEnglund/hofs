@@ -31,8 +31,9 @@
             <li class="pane3">
                 <div class="friends" ng-controller="TodoCtrl">
                     <p ng-repeat="friend in friends">
-                    <img ng-src="{{friend.img}}" />
+                    <img ng-src="{{friend.img}}" class="profilefriends"/>
                     {{friend.text}}
+                    <input type="checkbox">
                     </p>
                 </div>
             </li>

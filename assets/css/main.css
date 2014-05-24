@@ -109,7 +109,6 @@ html, body, #carousel, #carousel ul, #carousel li
     min-width: 100%;
     text-align: center;
     height: 20% !important;
-
     background-color: green !important;  
 }
 
@@ -118,7 +117,24 @@ html, body, #carousel, #carousel ul, #carousel li
     color: #666;
     min-width: 100%;    
     height: 50% !important;
-    background-color: lightblue !important;    
+    background-color: lightblue !important;  
+
+}
+
+.profilefriends
+{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; 
+}
+
+input
+{
+    
 }
 
 #carousel li.pane1 { background: #42d692; }
