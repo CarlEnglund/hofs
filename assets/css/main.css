@@ -52,16 +52,10 @@ html, body, #carousel, #carousel ul, #carousel li
     -webkit-transform: translate3d(0,0,0);
 }
 
-#carousel div
-{
-	color: #666;
-	height: 15%;
-}
-
 .bubble 
 {
     position: relative;
-    width: 250px;
+    width: 200px;
     height: 90px;
     padding: 0px;
     float: left;
@@ -69,6 +63,9 @@ html, body, #carousel, #carousel ul, #carousel li
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
+    margin-left: 40px;
+    margin-top: -85px;
+
 }
 
 .bubble:after 
@@ -84,7 +81,6 @@ html, body, #carousel, #carousel ul, #carousel li
     left: -13px;
     top: 51px;
 }
-
 .newevent
 {
     background-color: #FFFFFF !important;  
@@ -157,10 +153,11 @@ html, body, #carousel, #carousel ul, #carousel li
 /*Första wrappern*/
 .wrapper1 
 {
-    margin: 0px 0px 0px 0px; 
+    margin: 0;
+    padding: 0;
     background-color: #F2E2DF !important; 
     min-width: 100%;
-    min-height: 33%; 
+    height: 20% !important; 
 }
 
 .activity-header
@@ -173,7 +170,7 @@ html, body, #carousel, #carousel ul, #carousel li
 {
     color: #000000; 
     padding: 0px 0px 0px 20px;
-    font-size: 50px;
+    font-size: 25px;
     text-align: left;
     padding-top: 10px;
     font-family: 'Abril Fatface', cursive;
@@ -188,8 +185,8 @@ html, body, #carousel, #carousel ul, #carousel li
 
 .activity-icon img 
 {
-   width: 100px;
-   height: 100px;
+   width: 50px;
+   height: 50px;
    padding-top: 20px;
 }
 
@@ -204,12 +201,12 @@ html, body, #carousel, #carousel ul, #carousel li
     margin: 0px 0px 0px 0px; 
     background-color: lightblue !important;
     min-width: 100%;
-    min-height: 33%;
+    height: 30% !important;
 }
 
 .description-img {
     float: left; 
-    width: 100px;
+    width: 100px !important;
 }
 
 
@@ -219,6 +216,16 @@ html, body, #carousel, #carousel ul, #carousel li
 }
 
 /* slut på andra wrappern */
+
+.wrapper3 
+{
+    margin: 0;
+    padding: 0; 
+    background-color: lightgreen !important;
+    min-width: 100%;
+    height: 50% !important;
+}
+
 .profile {
    width: 50px;
    height: 50px;
@@ -339,7 +346,11 @@ input[type='checkbox']
     display: inline-block;
 }
 
-
+.tryckner
+{
+    margin-top: 100px;
+    margin-left: 40px;
+}
 #carousel li.pane1 { background: #F2E2DF; }
-#carousel li.pane2 { background: #54BE68; }
+#carousel li.pane2 { background: #F2E2DF; }
 #carousel li.pane3 { background: #F2E2DF; }
