@@ -55,7 +55,6 @@ html, body, #carousel, #carousel ul, #carousel li
 #carousel div
 {
 	color: #666;
-	min-width: 100%;
 	text-align: center;
 	height: 15%;
 	
@@ -76,7 +75,7 @@ html, body, #carousel, #carousel ul, #carousel li
     margin: 15px 0px 0px 0px; 
     height: 20% !important;
     width: 100%;
-    background-color: #D9E852 !important;   
+    background-color: #D9E852;   
 }
 
 .event h1
@@ -185,8 +184,6 @@ input[type='checkbox']
     height:25px;
 }
 
-
-
 .attending
 {
     width: 30px;
@@ -227,19 +224,34 @@ input[type='checkbox']
 .lefty
 {
     float: left;
-    background-color: #d06b64 !important;  
-    width: 70%;    
+    width: 95%;  
+    height: 20%;  
 }
+
 .righty
 {
     float: right;
-    background-color: #54BE68 !important;  
-    width: 30%;    
+    width: 5%;
+    height: 20%;    
 }
+
 .clear
 {
     clear:both;    
 }
+
+.left
+{
+    float: left;
+
+}
+
+.right
+{
+    float: right;
+    display: inline-block;
+}
+
 
 #carousel li.pane1 { background: #F2E2DF; }
 #carousel li.pane2 { background: #54BE68; }
