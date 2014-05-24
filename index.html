@@ -17,14 +17,6 @@
         <ul>
             <li class="pane1">
 
-<<<<<<< HEAD
-            <div class ="event">  <h1>AW hos Calleman</h1> </div>
-            <div class ="eventaccept">  <h1>Spelnight</h1> </div>       
-            <div class ="eventdecline">  <h1>Volleyboll i parken</h1> </div>
-
-=======
->>>>>>> a740d49be16a7ce496351e23409961eea10c96ec
-
             <div class ="newevent"> + </div>  
             <div class ="event">
                 <div class="lefty" >       
@@ -85,7 +77,6 @@
 
             </li>
 
-<<<<<<< HEAD
             <li class="pane2">
 	        	<div class="wrapper1">
 		            	<div class="activity-header">
@@ -110,23 +101,29 @@
 
 	            	<div class="clear"></div>
 	            </div>
+
+                <div class="wrapper3">
+                    <div class="friends" ng-controller="TodoCtrl">
+                    <p ng-repeat="friend in friends">
+                    <img ng-src="{{friend.img}}" class="profilefriends"/>
+                    {{friend.text}}
+                    </p>
+                </div>
+
+                </div>
         	</li>
 
-            <li class="pane3"><h2>...or swipe...</h2></li>
-=======
-            <li class="pane2"><h2>...or drag...</h2></li>
             <li class="pane3">
                 <div class="friends" ng-controller="TodoCtrl">
                     <p ng-repeat="friend in friends">
                     <img ng-src="{{friend.img}}" class="profilefriends"/>
                     {{friend.text}}
-                    
                     <input type="checkbox">
 
                     </p>
                 </div>
             </li>
->>>>>>> a740d49be16a7ce496351e23409961eea10c96ec
+
             
         </ul>
     </div>

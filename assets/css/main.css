@@ -159,7 +159,9 @@ html, body, #carousel, #carousel ul, #carousel li
 .wrapper1 
 {
     margin: 0px 0px 0px 0px; 
-    background-color: #F2E2DF !important;  
+    background-color: #F2E2DF !important; 
+    min-width: 100%;
+    min-height: 33%; 
 }
 
 .activity-header
@@ -201,23 +203,23 @@ html, body, #carousel, #carousel ul, #carousel li
 .wrapper2 
 {
     margin: 0px 0px 0px 0px; 
-    background-color: #F2E2DF !important;
+    background-color: lightblue !important;
+    min-width: 100%;
+    min-height: 33%;
 }
 
 .description-img {
     float: left; 
-    width: 50%;
+    width: 100px;
 }
 
-.description-img img {
-}
 
 .description-text {
     float: right;
-    width: 50%;
+    width: 80%;
 }
 
-
+/* slut på andra wrappern */
 .profile {
    width: 50px;
    height: 50px;
