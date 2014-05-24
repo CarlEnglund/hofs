@@ -102,6 +102,25 @@ html, body, #carousel, #carousel ul, #carousel li
     -o-border-radius: 50%;
 }
 
+.pictures
+{
+    color: #666;
+    margin: 0 auto;
+    min-width: 100%;
+    text-align: center;
+    height: 20% !important;
+
+    background-color: green !important;  
+}
+
+.friends
+{
+    color: #666;
+    min-width: 100%;    
+    height: 50% !important;
+    background-color: lightblue !important;    
+}
+
 #carousel li.pane1 { background: #42d692; }
 #carousel li.pane2 { background: #4986e7; }
 #carousel li.pane3 { background: #d06b64; }
