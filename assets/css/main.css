@@ -55,7 +55,6 @@ html, body, #carousel, #carousel ul, #carousel li
 #carousel div
 {
 	color: #666;
-	text-align: center;
 	height: 15%;
 }
 
@@ -240,11 +239,13 @@ html, body, #carousel, #carousel ul, #carousel li
     background-color: green !important;  
 }
 
-.friends
+.friends 
 {
+    padding: 1% 0 0 4%;
     color: #666;
     min-width: 100%;    
     font-size: 125%; 
+    background-color: #F2E2DF !important;
 
 }
 
@@ -341,4 +342,4 @@ input[type='checkbox']
 
 #carousel li.pane1 { background: #F2E2DF; }
 #carousel li.pane2 { background: #54BE68; }
-#carousel li.pane3 { background: #d06b64; }
+#carousel li.pane3 { background: #F2E2DF; }
