@@ -232,7 +232,7 @@ html, body, #carousel, #carousel ul, #carousel li
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    padding: 5px;
+    padding: 1%;
 }
 
 .pictures
@@ -247,7 +247,7 @@ html, body, #carousel, #carousel ul, #carousel li
 
 .friends 
 {
-    padding: 1% 0 0 4%;
+    padding: 1% 0 0 6%;
     color: #666;
     min-width: 100%;    
     font-size: 125%; 
@@ -319,14 +319,14 @@ input[type='checkbox']
 .lefty
 {
     float: left;
-    width: 95%;  
+    width: 80%;  
     height: 20%;  
 }
 
 .righty
 {
     float: right;
-    width: 5%;
+    width: 20%;
     height: 20%;    
 }
 
@@ -346,6 +346,7 @@ input[type='checkbox']
     float: right;
     display: inline-block;
 }
+
 
 
 #carousel li.pane1 { background: #F2E2DF; }
