@@ -63,6 +63,7 @@ html, body, #carousel, #carousel ul, #carousel li
 
 .newevent
 {
+    background-color: #FFFFFF !important;  
 	font-size: 300% !important; 
     height: 11% !important;
 	vertical-align: middle !important;
@@ -179,8 +180,6 @@ input[type='checkbox']
     height:25px;
 }
 
-#carousel li.pane1 { background: #42d692; }
-
-
+#carousel li.pane1 { background: #F2E2DF; }
 #carousel li.pane2 { background: #4986e7; }
 #carousel li.pane3 { background: #d06b64; }
