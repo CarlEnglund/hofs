@@ -55,7 +55,6 @@ html, body, #carousel, #carousel ul, #carousel li
 #carousel div
 {
 	color: #666;
-	min-width: 100%;
 	text-align: center;
 	height: 15%;
 	
@@ -67,7 +66,7 @@ html, body, #carousel, #carousel ul, #carousel li
 	font-size: 200% !important; 
     height: 11% !important;
 	vertical-align: middle !important;
-	line-height: 150%; 
+	line-height: 20    0%; 
     box-shadow: 0px 3px 3px #888888;
     margin: 0 0 15px 0;
 }
@@ -180,6 +179,25 @@ input[type='checkbox']
     height:25px;
 }
 
+.lefty
+{
+    float: left;
+    background-color: #d06b64 !important;  
+    width: 70%;    
+}
+
+.righty
+{
+    float: right;
+    background-color: #54BE68 !important;  
+    width: 30%;    
+}
+
+.clear
+{
+    clear:both;    
+}
+
 #carousel li.pane1 { background: #F2E2DF; }
-#carousel li.pane2 { background: #4986e7; }
+#carousel li.pane2 { background: #54BE68; }
 #carousel li.pane3 { background: #d06b64; }
