@@ -81,7 +81,7 @@ html, body, #carousel, #carousel ul, #carousel li
 	min-width: 100%;
 	text-align: center;
 	height: 10%;
-	background-color: #fff;	
+	background-color: black;	
 }
 
 #carousel li.pane1 { background: #42d692; }
