@@ -64,7 +64,7 @@ html, body, #carousel, #carousel ul, #carousel li
     -moz-border-radius: 0px;
     border-radius: 0px;
     margin-left: 40px;
-    margin-top: -40px;
+    margin-top: -100px;
 
 }
 
@@ -160,7 +160,7 @@ html, body, #carousel, #carousel ul, #carousel li
 {
     margin: 0;
     padding: 0;
-    background-color: #F2E2DF !important; 
+    /*background-color: #F2E2DF !important; */
     min-width: 100%;
     height: 20% !important; 
 }
@@ -212,6 +212,7 @@ html, body, #carousel, #carousel ul, #carousel li
 .description-img {
     float: left; 
     width: 100px !important;
+
 }
 
 
@@ -240,6 +241,18 @@ html, body, #carousel, #carousel ul, #carousel li
     padding: 1%;
 }
 
+.profile1
+{
+   width: 75px;
+   height: 75px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 1%;
+}
+
 .pictures
 {
     color: #666;
@@ -252,15 +265,15 @@ html, body, #carousel, #carousel ul, #carousel li
 
 .friends 
 {
-
-    margin-left: 35px;
+    margin-top: 5px;
+    margin-left: 30px;
 
     padding: 1% 0 0 6%;
 
     color: #666;
     min-width: 100%;    
     font-size: 125%; 
-    background-color: #F2E2DF !important;
+    /*background-color: #F2E2DF !important;*/
 
 }
 
@@ -301,6 +314,10 @@ input[type='checkbox']
     padding: 0 2px 0 0;
 }
 
+.notattending1
+{
+    opacity: 0.2;
+}
 .event h1
 {
     margin: 0 0 5 70px;
@@ -360,7 +377,7 @@ input[type='checkbox']
 .tryckner
 {
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 15px;
 }
 
 .noevents
@@ -476,6 +493,6 @@ h3 {
 
 
 #carousel li.pane1 { background: #F2E2DF; }
-#carousel li.pane2 { background: #F2E2DF; }
+#carousel li.pane2 { background-color: #54BE68 !important; }
 #carousel li.pane3 { background: #F2E2DF; }
 #carousel li.pane4 { background: #F2E2DF; }
