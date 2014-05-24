@@ -64,7 +64,7 @@ html, body, #carousel, #carousel ul, #carousel li
     text-shadow: -1px -1px 0 rgba(0,0,0,.2);
 }
 
-#carousel p
+#carousel div
 {
 	color: #666;
 	margin: 0 auto;
@@ -80,8 +80,9 @@ html, body, #carousel, #carousel ul, #carousel li
 	margin: 0 auto;
 	min-width: 100%;
 	text-align: center;
-	height: 10%;
-	background-color: black;	
+	height: 20% !important;
+
+	background-color: blue !important; 	
 }
 
 #carousel li.pane1 { background: #42d692; }
