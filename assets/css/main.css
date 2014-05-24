@@ -57,10 +57,17 @@ html, body, #carousel, #carousel ul, #carousel li
 	color: #666;
 	min-width: 100%;
 	text-align: center;
-	height: 10%;
+	height: 15%;
 	background-color: #fff;
 }
 
+.newevent
+{
+	font-size: 400% !important; 
+	vertical-align: middle !important;
+	line-height: 150%; 
+
+}
 .event
 {
     margin: 30px 0px 0px 0px; 
@@ -113,9 +120,23 @@ html, body, #carousel, #carousel ul, #carousel li
     text-shadow: -1px -1px 0 rgba(0,0,0,.2);
 }
 
+<<<<<<< HEAD
 
 
 
 #carousel li.pane1 { background: #F2E2DF; }
+=======
+.profile {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#carousel li.pane1 { background: #42d692; }
+>>>>>>> 9e27617ef2b8548ed7a5eabdb1398a9bd1efcb96
 #carousel li.pane2 { background: #4986e7; }
 #carousel li.pane3 { background: #d06b64; }
