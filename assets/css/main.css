@@ -70,10 +70,17 @@ html, body, #carousel, #carousel ul, #carousel li
 	margin: 0 auto;
 	min-width: 100%;
 	text-align: center;
-	height: 10%;
+	height: 15%;
 	background-color: #fff;
 }
 
+.newevent
+{
+	font-size: 400% !important; 
+	vertical-align: middle !important;
+	line-height: 150%; 
+
+}
 .event
 {
 	color: #666;
